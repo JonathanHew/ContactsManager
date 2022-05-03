@@ -10,6 +10,7 @@ function App()
 
   const addContactHandler = (contact) => {
     console.log(contact);
+    //updates the contact array with new contact.
     setContacts([...contacts, contact]);
   };  
 
